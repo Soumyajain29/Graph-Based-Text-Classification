@@ -1,7 +1,7 @@
 # Graph-based-text-classification
 
 This is code for our proposed model in DL-NLP course.
-![proposed image](https://drive.google.com/file/d/1wX8t12RV3sWE9eSphgwGupNzQHHVnM3V/view?usp=sharing)
+[See proposed model here](https://drive.google.com/file/d/1wX8t12RV3sWE9eSphgwGupNzQHHVnM3V/view?usp=sharing)
 
 For the baselines mentioned in results, please refer follwoing codes that we had implemeneted:
 
