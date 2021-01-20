@@ -9,6 +9,7 @@ Original file is located at
 
 import os
 import pandas as pd
+import numpy as np
 import re
 import pickle as pkl
 from math import log
@@ -32,6 +33,7 @@ def create_df(filename):
   return df
 
 f = sys.argv[1]
+#this is for MR 
 with open(f,'rb') as f:
   q = f.readlines()
 
@@ -53,6 +55,8 @@ for doc in texts:
     else:
       word_freq[w] = 1
 vocab = list(word_set)
+config['vocab_size'] = len(vocab)
+np.savetxt('vocab.txt', vocab, fmt='%s')
 
 map_word_index = {}
 for i in range(len(vocab)):
@@ -132,6 +136,6 @@ node_size = len(vocab)
 adj = sp.csr_matrix(
     (weight, (row, col)), shape=(node_size, node_size))
 
-with open("/content/{}.adj".format(dataset), 'wb') as f:
+with open(config['adj_path'].format(config['dataset']), 'wb') as f:
   pkl.dump(adj, f)
   
