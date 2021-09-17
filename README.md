@@ -14,10 +14,10 @@ Baselines:
 * LSTM with pre-trained GloVe embeddings(d=300) : [LSTM - GloVe](https://github.com/deekshakoul/Examples-of-DL-NLP-using-Pytorch.git)
 * Code for TGCN and VGCN-BERT: adjacency.ipynb + gcn.py + train.py 
 
-* Dataset Statistics:
+Dataset Statistics:
 
 ![Dataset Statistics](https://github.com/Soumyajain29/Graph-Based-Text-Classification/blob/main/images/dataset_statistics.jpg)
 
-* Results:
+Results:
 
 ![results](https://github.com/Soumyajain29/Graph-Based-Text-Classification/blob/main/images/results.jpg)
