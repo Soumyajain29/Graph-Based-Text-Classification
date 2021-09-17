@@ -15,7 +15,9 @@ Baselines:
 * Code for TGCN and VGCN-BERT: adjacency.ipynb + gcn.py + train.py 
 
 * Dataset Statistics:
+
 ![Dataset Statistics](https://github.com/Soumyajain29/Graph-Based-Text-Classification/blob/main/images/dataset_statistics.jpg)
 
 * Results:
+
 ![results](https://github.com/Soumyajain29/Graph-Based-Text-Classification/blob/main/images/results.jpg)
