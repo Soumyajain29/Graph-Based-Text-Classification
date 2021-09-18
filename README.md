@@ -21,3 +21,7 @@ Dataset Statistics:
 Results:
 
 ![results](https://github.com/Soumyajain29/Graph-Based-Text-Classification/blob/main/images/results.jpg)
+
+Project Report-
+[Final_Project_Report.pdf](https://github.com/Soumyajain29/Graph-Based-Text-Classification/blob/main/Final_Project_Report.pdf)
+
